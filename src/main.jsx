@@ -7,7 +7,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Create from './Create.jsx'
 import Home from './Home.jsx'
 import NotFound from './NotFound.jsx'
-import BlogDetails from './blogDetails.jsx'
+import BlogDetails from './BlogDetails.jsx'
+
 const router = createBrowserRouter([
   {
     path: "/",

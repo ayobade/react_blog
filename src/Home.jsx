@@ -1,4 +1,4 @@
-import BlogList from "./BlogList"
+import BlogList from "./Bloglist.jsx"
 import useFetch from "./useFetch.js"
 
 const Home = () => {

@@ -6,9 +6,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Create from './Create.jsx'
 import Home from './Home.jsx'
-import BlogDetails from './blogDetails.jsx'
 import NotFound from './NotFound.jsx'
-
+import BlogDetails from './blogDetails.jsx'
 const router = createBrowserRouter([
   {
     path: "/",

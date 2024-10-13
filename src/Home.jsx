@@ -2,7 +2,7 @@ import BlogList from "./Bloglist.jsx"
 import useFetch from "./useFetch.js"
 
 const Home = () => {
-    const { data: blogs, isPending, error } = useFetch("http://localhost:3000/blogs")
+    const { data: blogs, isPending, error } = useFetch("https://670912b1af1a3998baa0475b.mockapi.io/blogs/")
     return (
         <>
             <div className="home">

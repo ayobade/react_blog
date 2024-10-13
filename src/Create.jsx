@@ -12,7 +12,7 @@ const Create = () => {
     e.preventDefault();
     const blog = { title, body, author };
 
-    await fetch("http://localhost:3000/blogs", {
+    await fetch("https://670912b1af1a3998baa0475b.mockapi.io/blogs/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(blog),

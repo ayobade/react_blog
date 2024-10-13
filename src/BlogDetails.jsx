@@ -7,11 +7,11 @@ const BlogDetails = () => {
     data: blog,
     error,
     isPending,
-  } = useFetch (`http://localhost:3000/blogs/${id}`);
+  } = useFetch (`https://670912b1af1a3998baa0475b.mockapi.io/blogs/${id}`);
 
 const navigate = useNavigate()
 const handleDelete = async () => {
-    await fetch("http://localhost:3000/blogs/" + id, {
+    await fetch("https://670912b1af1a3998baa0475b.mockapi.io/blogs/" + id, {
         method:"DELETE",
     })
 
